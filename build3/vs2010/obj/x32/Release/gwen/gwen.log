@@ -1,0 +1,145 @@
+﻿Build started 1/25/2015 1:46:55 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\gwen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\btgui\Gwen /I..\..\btgui /nologo /W3 /WX- /Ox /Oy- /D GLEW_STATIC /D GWEN_COMPILE_STATIC /D DONT_USE_GLUT /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\gwen\\" /Fd"obj\x32\Release\gwen\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\btgui\Gwen /I..\..\btgui /nologo /W3 /WX- /Ox /Oy- /D GLEW_STATIC /D GWEN_COMPILE_STATIC /D DONT_USE_GLUT /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\gwen\\" /Fd"obj\x32\Release\gwen\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\btgui\Gwen\Anim.cpp ..\..\btgui\Gwen\BaseRender.cpp ..\..\btgui\Gwen\DragAndDrop.cpp ..\..\btgui\Gwen\events.cpp ..\..\btgui\Gwen\Gwen.cpp ..\..\btgui\Gwen\Hook.cpp ..\..\btgui\Gwen\inputhandler.cpp ..\..\btgui\Gwen\Skin.cpp ..\..\btgui\Gwen\ToolTip.cpp ..\..\btgui\Gwen\Utility.cpp ..\..\btgui\Gwen\Controls\Base.cpp ..\..\btgui\Gwen\Controls\Button.cpp ..\..\btgui\Gwen\Controls\Canvas.cpp ..\..\btgui\Gwen\Controls\CheckBox.cpp ..\..\btgui\Gwen\Controls\ColorControls.cpp ..\..\btgui\Gwen\Controls\ColorPicker.cpp ..\..\btgui\Gwen\Controls\ComboBox.cpp ..\..\btgui\Gwen\Controls\CrossSplitter.cpp ..\..\btgui\Gwen\Controls\DockBase.cpp ..\..\btgui\Gwen\Controls\DockedTabControl.cpp ..\..\btgui\Gwen\Controls\Dragger.cpp ..\..\btgui\Gwen\Controls\GroupBox.cpp ..\..\btgui\Gwen\Controls\HorizontalScrollBar.cpp ..\..\btgui\Gwen\Controls\HorizontalSlider.cpp ..\..\btgui\Gwen\Controls\HSVColorPicker.cpp ..\..\btgui\Gwen\Controls\ImagePanel.cpp ..\..\btgui\Gwen\Controls\Label.cpp ..\..\btgui\Gwen\Controls\LabelClickable.cpp ..\..\btgui\Gwen\Controls\ListBox.cpp ..\..\btgui\Gwen\Controls\Menu.cpp ..\..\btgui\Gwen\Controls\MenuItem.cpp ..\..\btgui\Gwen\Controls\MenuStrip.cpp ..\..\btgui\Gwen\Controls\NumericUpDown.cpp ..\..\btgui\Gwen\Controls\PanelListPanel.cpp ..\..\btgui\Gwen\Controls\ProgressBar.cpp ..\..\btgui\Gwen\Controls\Properties.cpp ..\..\btgui\Gwen\Controls\RadioButton.cpp ..\..\btgui\Gwen\Controls\RadioButtonController.cpp ..\..\btgui\Gwen\Controls\ResizableControl.cpp ..\..\btgui\Gwen\Controls\Resizer.cpp ..\..\btgui\Gwen\Controls\RichLabel.cpp ..\..\btgui\Gwen\Controls\ScrollBar.cpp ..\..\btgui\Gwen\Controls\ScrollBarBar.cpp ..\..\btgui\Gwen\Controls\ScrollBarButton.cpp ..\..\btgui\Gwen\Controls\ScrollControl.cpp ..\..\btgui\Gwen\Controls\Slider.cpp ..\..\btgui\Gwen\Controls\SplitterBar.cpp ..\..\btgui\Gwen\Controls\TabButton.cpp ..\..\btgui\Gwen\Controls\TabControl.cpp ..\..\btgui\Gwen\Controls\TabStrip.cpp ..\..\btgui\Gwen\Controls\Text.cpp ..\..\btgui\Gwen\Controls\TextBox.cpp ..\..\btgui\Gwen\Controls\TextBoxNumeric.cpp ..\..\btgui\Gwen\Controls\TreeControl.cpp ..\..\btgui\Gwen\Controls\TreeNode.cpp ..\..\btgui\Gwen\Controls\VerticalScrollBar.cpp ..\..\btgui\Gwen\Controls\VerticalSlider.cpp ..\..\btgui\Gwen\Controls\WindowControl.cpp ..\..\btgui\Gwen\Controls\Dialog\FileOpen.cpp ..\..\btgui\Gwen\Controls\Dialog\FileSave.cpp ..\..\btgui\Gwen\Controls\Dialog\Query.cpp ..\..\btgui\Gwen\Platforms\Null.cpp ..\..\btgui\Gwen\Platforms\Windows.cpp ..\..\btgui\Gwen\Renderers\OpenGL_DebugFont.cpp
+         Anim.cpp
+         BaseRender.cpp
+         DragAndDrop.cpp
+         events.cpp
+         Gwen.cpp
+         Hook.cpp
+         inputhandler.cpp
+         Skin.cpp
+         ToolTip.cpp
+         Utility.cpp
+         Base.cpp
+         Button.cpp
+         Canvas.cpp
+         CheckBox.cpp
+         ColorControls.cpp
+         ColorPicker.cpp
+         ComboBox.cpp
+         CrossSplitter.cpp
+         DockBase.cpp
+         DockedTabControl.cpp
+         Dragger.cpp
+         GroupBox.cpp
+         HorizontalScrollBar.cpp
+         HorizontalSlider.cpp
+         HSVColorPicker.cpp
+         ImagePanel.cpp
+         Label.cpp
+         LabelClickable.cpp
+         ListBox.cpp
+         Menu.cpp
+         MenuItem.cpp
+         MenuStrip.cpp
+         NumericUpDown.cpp
+         PanelListPanel.cpp
+         ProgressBar.cpp
+         Properties.cpp
+         RadioButton.cpp
+         RadioButtonController.cpp
+         ResizableControl.cpp
+         Resizer.cpp
+         RichLabel.cpp
+         ScrollBar.cpp
+         ScrollBarBar.cpp
+         ScrollBarButton.cpp
+         ScrollControl.cpp
+         Slider.cpp
+         SplitterBar.cpp
+         TabButton.cpp
+         TabControl.cpp
+         TabStrip.cpp
+         Text.cpp
+         TextBox.cpp
+         TextBoxNumeric.cpp
+         TreeControl.cpp
+         TreeNode.cpp
+         VerticalScrollBar.cpp
+         VerticalSlider.cpp
+         WindowControl.cpp
+         FileOpen.cpp
+         FileSave.cpp
+         Query.cpp
+         Null.cpp
+         Windows.cpp
+         OpenGL_DebugFont.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\bin\gwen_vs2010.lib" /NOLOGO /MACHINE:X86 obj\x32\Release\gwen\glew.obj
+         obj\x32\Release\gwen\Anim.obj
+         obj\x32\Release\gwen\BaseRender.obj
+         obj\x32\Release\gwen\DragAndDrop.obj
+         obj\x32\Release\gwen\events.obj
+         obj\x32\Release\gwen\Gwen.obj
+         obj\x32\Release\gwen\Hook.obj
+         obj\x32\Release\gwen\inputhandler.obj
+         obj\x32\Release\gwen\Skin.obj
+         obj\x32\Release\gwen\ToolTip.obj
+         obj\x32\Release\gwen\Utility.obj
+         obj\x32\Release\gwen\Base.obj
+         obj\x32\Release\gwen\Button.obj
+         obj\x32\Release\gwen\Canvas.obj
+         obj\x32\Release\gwen\CheckBox.obj
+         obj\x32\Release\gwen\ColorControls.obj
+         obj\x32\Release\gwen\ColorPicker.obj
+         obj\x32\Release\gwen\ComboBox.obj
+         obj\x32\Release\gwen\CrossSplitter.obj
+         obj\x32\Release\gwen\DockBase.obj
+         obj\x32\Release\gwen\DockedTabControl.obj
+         obj\x32\Release\gwen\Dragger.obj
+         obj\x32\Release\gwen\GroupBox.obj
+         obj\x32\Release\gwen\HorizontalScrollBar.obj
+         obj\x32\Release\gwen\HorizontalSlider.obj
+         obj\x32\Release\gwen\HSVColorPicker.obj
+         obj\x32\Release\gwen\ImagePanel.obj
+         obj\x32\Release\gwen\Label.obj
+         obj\x32\Release\gwen\LabelClickable.obj
+         obj\x32\Release\gwen\ListBox.obj
+         obj\x32\Release\gwen\Menu.obj
+         obj\x32\Release\gwen\MenuItem.obj
+         obj\x32\Release\gwen\MenuStrip.obj
+         obj\x32\Release\gwen\NumericUpDown.obj
+         obj\x32\Release\gwen\PanelListPanel.obj
+         obj\x32\Release\gwen\ProgressBar.obj
+         obj\x32\Release\gwen\Properties.obj
+         obj\x32\Release\gwen\RadioButton.obj
+         obj\x32\Release\gwen\RadioButtonController.obj
+         obj\x32\Release\gwen\ResizableControl.obj
+         obj\x32\Release\gwen\Resizer.obj
+         obj\x32\Release\gwen\RichLabel.obj
+         obj\x32\Release\gwen\ScrollBar.obj
+         obj\x32\Release\gwen\ScrollBarBar.obj
+         obj\x32\Release\gwen\ScrollBarButton.obj
+         obj\x32\Release\gwen\ScrollControl.obj
+         obj\x32\Release\gwen\Slider.obj
+         obj\x32\Release\gwen\SplitterBar.obj
+         obj\x32\Release\gwen\TabButton.obj
+         obj\x32\Release\gwen\TabControl.obj
+         obj\x32\Release\gwen\TabStrip.obj
+         obj\x32\Release\gwen\Text.obj
+         obj\x32\Release\gwen\TextBox.obj
+         obj\x32\Release\gwen\TextBoxNumeric.obj
+         obj\x32\Release\gwen\TreeControl.obj
+         obj\x32\Release\gwen\TreeNode.obj
+         obj\x32\Release\gwen\VerticalScrollBar.obj
+         obj\x32\Release\gwen\VerticalSlider.obj
+         obj\x32\Release\gwen\WindowControl.obj
+         obj\x32\Release\gwen\FileOpen.obj
+         obj\x32\Release\gwen\FileSave.obj
+         obj\x32\Release\gwen\Query.obj
+         obj\x32\Release\gwen\Null.obj
+         obj\x32\Release\gwen\Windows.obj
+         obj\x32\Release\gwen\OpenGL_DebugFont.obj
+     1>Null.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Query.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ImagePanel.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         gwen.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\gwen_vs2010.lib
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\gwen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:52.49

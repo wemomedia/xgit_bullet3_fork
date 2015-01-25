@@ -1,0 +1,18 @@
+﻿Build started 1/25/2015 1:45:56 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_BasicDemoConsole.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src /I..\..\btgui /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_BasicDemoConsole\\" /Fd"..\..\bin\App_BasicDemoConsole_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\Demos3\BasicDemoConsole\main.cpp ..\..\Demos\BasicDemo\BasicDemoPhysicsSetup.cpp
+         main.cpp
+         BasicDemoPhysicsSetup.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG=1 /l"0x0409" /I..\..\src /I..\..\btgui /nologo /fo"obj\x32\Debug\App_BasicDemoConsole\bullet.res" ..\bullet.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_BasicDemoConsole_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\App_BasicDemoConsole_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_BasicDemoConsole_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_BasicDemoConsole\bullet.res
+         obj\x32\Debug\App_BasicDemoConsole\main.obj
+         obj\x32\Debug\App_BasicDemoConsole\BasicDemoPhysicsSetup.obj
+         App_BasicDemoConsole.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\App_BasicDemoConsole_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_BasicDemoConsole.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.14

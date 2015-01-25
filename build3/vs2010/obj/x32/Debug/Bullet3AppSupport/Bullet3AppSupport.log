@@ -1,0 +1,51 @@
+﻿Build started 1/25/2015 1:45:22 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Bullet3AppSupport.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\btgui /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Bullet3AppSupport\\" /Fd"..\..\bin\Bullet3AppSupport_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\btgui /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Bullet3AppSupport\\" /Fd"..\..\bin\Bullet3AppSupport_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\btgui\Bullet3AppSupport\b3Clock.cpp ..\..\btgui\Bullet3AppSupport\b3Quickprof.cpp ..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp ..\..\btgui\Bullet3AppSupport\GraphingTexture.cpp ..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp ..\..\btgui\Bullet3AppSupport\GwenProfileWindow.cpp ..\..\btgui\Bullet3AppSupport\GwenTextureWindow.cpp ..\..\btgui\Bullet3AppSupport\gwenUserInterface.cpp
+         b3Clock.cpp
+         b3Quickprof.cpp
+         Bullet2RigidBodyDemo.cpp
+         GraphingTexture.cpp
+         GwenParameterInterface.cpp
+         GwenProfileWindow.cpp
+         GwenTextureWindow.cpp
+     1>..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp(165): warning C4316: 'MyDebugDrawer' : object allocated on the heap may not be aligned 16
+     1>..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp(281): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp(282): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp(303): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp(322): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 ..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp(36) : while compiling class template member function 'void MySliderEventHandler<btScalar>::SetValue(T)'
+                 with
+                 [
+                     T=btScalar
+                 ]
+                 ..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp(31) : see reference to function template instantiation 'void MySliderEventHandler<btScalar>::SetValue(T)' being compiled
+                 with
+                 [
+                     T=btScalar
+                 ]
+                 ..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp(127) : see reference to class template instantiation 'MySliderEventHandler<btScalar>' being compiled
+         gwenUserInterface.cpp
+     1>..\..\btgui\Bullet3AppSupport\gwenUserInterface.cpp(454): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\bin\Bullet3AppSupport_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\Bullet3AppSupport\glew.obj
+         obj\x32\Debug\Bullet3AppSupport\b3Clock.obj
+         obj\x32\Debug\Bullet3AppSupport\b3Quickprof.obj
+         obj\x32\Debug\Bullet3AppSupport\Bullet2RigidBodyDemo.obj
+         obj\x32\Debug\Bullet3AppSupport\GraphingTexture.obj
+         obj\x32\Debug\Bullet3AppSupport\GwenParameterInterface.obj
+         obj\x32\Debug\Bullet3AppSupport\GwenProfileWindow.obj
+         obj\x32\Debug\Bullet3AppSupport\GwenTextureWindow.obj
+         obj\x32\Debug\Bullet3AppSupport\gwenUserInterface.obj
+         Bullet3AppSupport.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Bullet3AppSupport_vs2010_debug.lib
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Bullet3AppSupport.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.73

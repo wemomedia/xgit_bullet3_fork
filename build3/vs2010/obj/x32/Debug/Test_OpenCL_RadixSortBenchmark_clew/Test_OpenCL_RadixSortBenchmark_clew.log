@@ -1,0 +1,65 @@
+﻿Build started 1/25/2015 1:46:08 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_RadixSortBenchmark_clew.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\OpenCL /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\\" /Fd"..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\src\clew\clew.c
+         clew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\OpenCL /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\\" /Fd"..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\test\OpenCL\RadixSortBenchmark\main.cpp ..\..\src\Bullet3OpenCL\Initialize\b3OpenCLUtils.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3FillCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3PrefixScanCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3RadixSort32CL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3LauncherCL.cpp ..\..\src\Bullet3Common\b3AlignedAllocator.cpp ..\..\src\Bullet3Common\b3Logging.cpp ..\..\btgui\Bullet3AppSupport\b3Quickprof.cpp ..\..\btgui\Bullet3AppSupport\b3Clock.cpp
+         main.cpp
+         b3OpenCLUtils.cpp
+         b3FillCL.cpp
+         b3PrefixScanCL.cpp
+         b3RadixSort32CL.cpp
+         b3LauncherCL.cpp
+         b3AlignedAllocator.cpp
+         b3Logging.cpp
+         b3Quickprof.cpp
+         b3Clock.cpp
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(483): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\test\OpenCL\RadixSortBenchmark\main.cpp(714) : see reference to function template instantiation 'void TestSort<unsigned int,unsigned int>(unsigned int,int,bool)' being compiled
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\test\OpenCL\RadixSortBenchmark\main.cpp(495) : see reference to function template instantiation 'void TimedSort<K>(unsigned int,K *,unsigned int)' being compiled
+                 with
+                 [
+                     K=unsigned int
+                 ]
+                 ..\..\test\OpenCL\RadixSortBenchmark\main.cpp(714) : see reference to function template instantiation 'void TestSort<unsigned int,unsigned int>(unsigned int,int,bool)' being compiled
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(223): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\test\OpenCL\RadixSortBenchmark\main.cpp(497) : see reference to function template instantiation 'void TimedSort<K,V>(unsigned int,K *,V *,unsigned int)' being compiled
+                 with
+                 [
+                     K=unsigned int
+         ,            V=unsigned int
+                 ]
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(284): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(433): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\test\OpenCL\RadixSortBenchmark\main.cpp(514) : see reference to function template instantiation 'int CompareResults<K,int>(T *,T *,SizeT,bool)' being compiled
+                 with
+                 [
+                     K=unsigned int
+         ,            T=unsigned int
+         ,            SizeT=int
+                 ]
+     1>..\..\test\OpenCL\RadixSortBenchmark\main.cpp(439): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\clew.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\main.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3OpenCLUtils.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3FillCL.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3PrefixScanCL.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3RadixSort32CL.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3LauncherCL.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3AlignedAllocator.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3Logging.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3Quickprof.obj
+         obj\x32\Debug\Test_OpenCL_RadixSortBenchmark_clew\b3Clock.obj
+         Test_OpenCL_RadixSortBenchmark_clew.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Test_OpenCL_RadixSortBenchmark_clew_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_RadixSortBenchmark_clew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.52

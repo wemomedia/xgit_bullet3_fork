@@ -1,0 +1,54 @@
+﻿Build started 1/25/2015 1:48:06 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\urdf_test.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui\urdf /I..\..\btgui /nologo /W3 /WX- /Ox /Oy- /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\urdf_test\\" /Fd"obj\x32\Release\urdf_test\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\btgui\urdf\urdfdom\urdf_parser\src\check_urdf.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\pose.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp ..\..\btgui\tinyxml\tinystr.cpp ..\..\btgui\tinyxml\tinyxml.cpp ..\..\btgui\tinyxml\tinyxmlerror.cpp ..\..\btgui\tinyxml\tinyxmlparser.cpp ..\..\btgui\urdf\boost_replacement\printf_console.cpp ..\..\btgui\urdf\boost_replacement\string_split.cpp
+         check_urdf.cpp
+         pose.cpp
+         model.cpp
+         link.cpp
+     1>..\..\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\pose.cpp)
+         joint.cpp
+     1>..\..\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+     1>..\..\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+     1>..\..\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\check_urdf.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\check_urdf.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\check_urdf.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp(106): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp(163): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(132): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(183): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(196): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(315): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(347): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+         tinystr.cpp
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         printf_console.cpp
+         string_split.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\urdf_test_vs2010.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\urdf_test_vs2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\urdf_test_vs2010.lib" /MACHINE:X86 /SAFESEH obj\x32\Release\urdf_test\check_urdf.obj
+         obj\x32\Release\urdf_test\pose.obj
+         obj\x32\Release\urdf_test\model.obj
+         obj\x32\Release\urdf_test\link.obj
+         obj\x32\Release\urdf_test\joint.obj
+         obj\x32\Release\urdf_test\tinystr.obj
+         obj\x32\Release\urdf_test\tinyxml.obj
+         obj\x32\Release\urdf_test\tinyxmlerror.obj
+         obj\x32\Release\urdf_test\tinyxmlparser.obj
+         obj\x32\Release\urdf_test\printf_console.obj
+         obj\x32\Release\urdf_test\string_split.obj
+         urdf_test.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\urdf_test_vs2010.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\urdf_test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.31

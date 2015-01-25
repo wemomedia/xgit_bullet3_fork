@@ -1,0 +1,346 @@
+﻿Build started 1/25/2015 1:46:16 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_AllBullet2Demos.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\Demos3\AllBullet2Demos /I..\..\src /I..\..\btgui /I"..\..\btgui\lua-5.2.3\src" /I..\..\Demos3\FiniteElementMethod /I..\..\btgui\OpenGLWindow\GlewWindows /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_AllBullet2Demos\\" /Fd"..\..\bin\App_AllBullet2Demos_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\Demos3\AllBullet2Demos /I..\..\src /I..\..\btgui /I"..\..\btgui\lua-5.2.3\src" /I..\..\Demos3\FiniteElementMethod /I..\..\btgui\OpenGLWindow\GlewWindows /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_AllBullet2Demos\\" /Fd"..\..\bin\App_AllBullet2Demos_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\Demos3\AllBullet2Demos\main.cpp ..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp ..\..\Demos3\bullet2\MultiBodyDemo\TestJointTorqueSetup.cpp ..\..\Demos3\bullet2\MultiBodyDemo\MultiBodyVehicle.cpp ..\..\Demos3\bullet2\CoordinateFrameDemo\CoordinateFrameDemoPhysicsSetup.cpp ..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp ..\..\Demos\BasicDemo\BasicDemoPhysicsSetup.cpp ..\..\Demos\CcdPhysicsDemo\CcdPhysicsSetup.cpp ..\..\Demos\SerializeDemo\SerializeSetup.cpp ..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp ..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp ..\..\Extras\Serialize\BulletFileLoader\bFile.cpp ..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp ..\..\Demos3\bullet2\ConstraintDemo\ConstraintPhysicsSetup.cpp ..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\Demos3\ImportColladaDemo\ImportColladaSetup.cpp ..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp ..\..\Demos3\ImportObjDemo\ImportObjSetup.cpp ..\..\Demos3\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\Demos3\ImportSTLDemo\ImportSTLSetup.cpp ..\..\Demos3\Wavefront\tiny_obj_loader.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\pose.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp ..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp ..\..\btgui\tinyxml\tinystr.cpp ..\..\btgui\tinyxml\tinyxml.cpp ..\..\btgui\tinyxml\tinyxmlerror.cpp ..\..\btgui\tinyxml\tinyxmlparser.cpp ..\..\btgui\urdf\boost_replacement\printf_console.cpp ..\..\btgui\urdf\boost_replacement\string_split.cpp ..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp ..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\MultiDofDemo.cpp ..\..\Demos3\bullet2\BasicDemo\BasicDemo.cpp
+         main.cpp
+         LuaPhysicsSetup.cpp
+         TestJointTorqueSetup.cpp
+         MultiBodyVehicle.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\src\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp)
+                 e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\luademo\LuaPhysicsSetup.h(17) : see declaration of 'btDbvtBroadphase'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\Bullet3AppSupport/CommonMultiBodySetup.h(178): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\MultiBodyDemo\MultiBodyVehicle.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\Bullet3AppSupport/CommonMultiBodySetup.h(178): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\MultiBodyDemo\TestJointTorqueSetup.cpp)
+     1>..\..\Demos3\bullet2\MultiBodyDemo\TestJointTorqueSetup.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\MultiBodyDemo\TestJointTorqueSetup.cpp(232): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(93): warning C4244: 'argument' : conversion from 'lua_Number' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(96): warning C4316: 'CustomShapeData' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(122): warning C4244: 'initializing' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(125): warning C4316: 'CustomShapeData' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(154): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(157): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(160): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(173): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(176): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(179): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(182): warning C4244: '=' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(219): warning C4244: 'initializing' : conversion from 'lua_Number' to 'btScalar', possible loss of data
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(246): warning C4316: 'CustomRigidBodyData' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\bullet2\LuaDemo\LuaPhysicsSetup.cpp(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         CoordinateFrameDemoPhysicsSetup.cpp
+         FiniteElementDemo.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/BasicDemo/BasicDemo.h(21): warning C4316: 'BasicDemoPhysicsSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/FeatherstoneMultiBodyDemo/BulletMultiBodyDemos.h(80): warning C4316: 'FeatherstoneDemo1' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/FeatherstoneMultiBodyDemo/BulletMultiBodyDemos.h(109): warning C4316: 'FeatherstoneDemo2' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/FeatherstoneMultiBodyDemo/MultiDofDemo.h(18): warning C4316: 'MultiDofDemo' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/RagdollDemo/RagdollDemo.h(8): warning C4099: 'BulletDemoInterface' : type name first seen using 'class' now seen using 'struct' (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\btgui\Bullet3AppSupport/BulletDemoInterface.h(7) : see declaration of 'BulletDemoInterface'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/RagdollDemo/RagdollDemo.h(17): warning C4316: 'RagDollSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../bullet2/LuaDemo/LuaPhysicsSetup.h(17): warning C4099: 'btDbvtBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 e:\projects\wemo\xgit_bullet3_fork\src\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62) : see declaration of 'btDbvtBroadphase'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\Bullet3AppSupport/CommonMultiBodySetup.h(178): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../Geometry/SphereCreation.h(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\../Geometry/DistributePoints.h(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(51): warning C4316: 'TestJointTorqueSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(52): warning C4316: 'MultiBodyVehicleSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(54): warning C4316: 'SerializeSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(55): warning C4316: 'CcdPhysicsSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(56): warning C4316: 'KinematicObjectSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(57): warning C4316: 'ConstraintPhysicsSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(58): warning C4316: 'ImportUrdfSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(59): warning C4316: 'ImportObjSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(60): warning C4316: 'ImportSTLSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(61): warning C4316: 'CoordinateFrameDemoPhysicsSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(66): warning C4316: 'ImportColladaSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\AllBullet2Demos\main.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(138): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\allbullet2demos\BulletDemoEntries.h(153): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\AllBullet2Demos\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>..\..\Demos3\AllBullet2Demos\main.cpp(330): warning C4316: 'ImportUrdfSetup' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\AllBullet2Demos\main.cpp(742): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         BasicDemoPhysicsSetup.cpp
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(158): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(159): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(223): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(242): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(289): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(290): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(291): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(327): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(334): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(335): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(336): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_init.h(61): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 ..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(122) : see reference to function template instantiation 'void OpenTissue::fem::init<mesh_type,double>(fem_mesh &,const real_type &,const real_type &,const real_type &,const real_type &,const real_type &,const real_type &)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_init.h(69): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_init.h(74): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(97): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 ..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(276) : see reference to function template instantiation 'void OpenTissue::fem::simulate<mesh_type,double>(fem_mesh &,const real_type &,bool,real_type,unsigned int,unsigned int)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(101): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(109): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(113): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_compute_mass.h(150): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_init.h(73) : see reference to function template instantiation 'void OpenTissue::fem::detail::compute_mass<fem_mesh>(fem_mesh &)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+                 ]
+                 ..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(122) : see reference to function template instantiation 'void OpenTissue::fem::init<mesh_type,double>(fem_mesh &,const real_type &,const real_type &,const real_type &,const real_type &,const real_type &,const real_type &)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_compute_mass.h(159): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_dynamics_assembly.h(62): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(118) : see reference to function template instantiation 'void OpenTissue::fem::detail::dynamics_assembly<fem_mesh,real_type>(fem_mesh &,const real_type &,const real_type &)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+                 ..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp(276) : see reference to function template instantiation 'void OpenTissue::fem::simulate<mesh_type,double>(fem_mesh &,const real_type &,bool,real_type,unsigned int,unsigned int)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_conjugate_gradients.h(49): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(121) : see reference to function template instantiation 'void OpenTissue::fem::detail::conjugate_gradients<fem_mesh>(fem_mesh &,unsigned int,unsigned int)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+                 ]
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_conjugate_gradients.h(79): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_conjugate_gradients.h(110): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_conjugate_gradients.h(126): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_position_update.h(28): warning C4018: '<' : signed/unsigned mismatch (..\..\Demos3\FiniteElementMethod\FiniteElementDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\Demos3\FiniteElementMethod\OpenTissue/dynamics/fem/fem_simulate.h(123) : see reference to function template instantiation 'void OpenTissue::fem::detail::position_update<fem_mesh,real_type>(fem_mesh &,const real_type &)' being compiled
+                 with
+                 [
+                     fem_mesh=mesh_type
+         ,            real_type=double
+                 ]
+         CcdPhysicsSetup.cpp
+         SerializeSetup.cpp
+         bChunk.cpp
+         bDNA.cpp
+         bFile.cpp
+     1>..\..\Demos\CcdPhysicsDemo\CcdPhysicsSetup.cpp(145): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         btBulletFile.cpp
+     1>..\..\Extras\Serialize\BulletFileLoader\bFile.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Extras\Serialize\BulletFileLoader\bFile.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos\SerializeDemo\SerializeSetup.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos\SerializeDemo\SerializeSetup.cpp(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         btBulletWorldImporter.cpp
+     1>..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp(359): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         btWorldImporter.cpp
+         ConstraintPhysicsSetup.cpp
+         LoadMeshFromCollada.cpp
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp(47): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp(59): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp(60): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>..\..\Demos3\ImportColladaDemo\LoadMeshFromCollada.cpp(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1186): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+         ImportColladaSetup.cpp
+         ImportURDFSetup.cpp
+         ImportObjSetup.cpp
+         Wavefront2GLInstanceGraphicsShape.cpp
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\Bullet3AppSupport/CommonMultiBodySetup.h(178): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\importurdfdemo\../ImportSTLDemo/LoadMeshFromSTL.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\ImportColladaSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\ImportColladaSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportColladaDemo\ImportColladaSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\ImportObjDemo\ImportObjSetup.cpp(44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\ImportObjDemo\ImportObjSetup.cpp(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         ImportSTLSetup.cpp
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp)
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(146): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(148): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(175): warning C4244: 'initializing' : conversion from 'double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(211): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(376): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(377): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(378): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(391): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(392): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(426): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(427): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(442): warning C4316: 'URDF_LinkInformation' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(507): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(508): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(561): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(567): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(575): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(577): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(610): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(611): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(655): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(666): warning C4800: 'btScalar' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(737): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+     1>..\..\Demos3\ImportURDFDemo\ImportURDFSetup.cpp(738): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+         tiny_obj_loader.cpp
+         pose.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\importstldemo\LoadMeshFromSTL.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\ImportSTLDemo\ImportSTLSetup.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\ImportSTLDemo\ImportSTLSetup.cpp(40): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\ImportSTLDemo\ImportSTLSetup.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(174): warning C4018: '>' : signed/unsigned mismatch
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\pose.cpp)
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(353): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(589): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(605): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(661): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+         model.cpp
+         link.cpp
+         joint.cpp
+         tinystr.cpp
+         tinyxml.cpp
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp)
+         tinyxmlerror.cpp
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp(106): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\model.cpp(163): warning C4101: 'e' : unreferenced local variable
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+     1>E:\Projects\Wemo\xgit_bullet3_fork\btgui\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp)
+         tinyxmlparser.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp)
+         printf_console.cpp
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(132): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(183): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(196): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(315): warning C4101: 'e' : unreferenced local variable
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\link.cpp(347): warning C4101: 'e' : unreferenced local variable
+         string_split.cpp
+     1>..\..\btgui\urdf\urdfdom\urdf_parser\src\joint.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         BulletMultiBodyDemos.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\featherstonemultibodydemo\BulletMultiBodyDemos.h(80): warning C4316: 'FeatherstoneDemo1' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\featherstonemultibodydemo\BulletMultiBodyDemos.h(109): warning C4316: 'FeatherstoneDemo2' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp)
+         MultiDofDemo.cpp
+         BasicDemo.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\featherstonemultibodydemo\BulletMultiBodyDemos.h(80): warning C4316: 'FeatherstoneDemo1' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\MultiDofDemo.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\featherstonemultibodydemo\BulletMultiBodyDemos.h(109): warning C4316: 'FeatherstoneDemo2' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\MultiDofDemo.cpp)
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\featherstonemultibodydemo\MultiDofDemo.h(18): warning C4316: 'MultiDofDemo' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\MultiDofDemo.cpp)
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(140): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(141): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(171): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(188): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(217): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(254): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(336): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\bullet2\FeatherstoneMultiBodyDemo\BulletMultiBodyDemos.cpp(396): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\bullet2\basicdemo\BasicDemo.h(21): warning C4316: 'BasicDemoPhysicsSetup' : object allocated on the heap may not be aligned 16 (..\..\Demos3\bullet2\BasicDemo\BasicDemo.cpp)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_AllBullet2Demos_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\Bullet3AppSupport_vs2010_debug.lib ..\..\bin\gwen_vs2010_debug.lib ..\..\bin\OpenGL_Window_vs2010_debug.lib ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib "..\..\lib\lua-5.2.3_vs2010_debug.lib" opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\App_AllBullet2Demos_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_AllBullet2Demos_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_AllBullet2Demos\glew.obj
+         obj\x32\Debug\App_AllBullet2Demos\main.obj
+         obj\x32\Debug\App_AllBullet2Demos\LuaPhysicsSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\TestJointTorqueSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\MultiBodyVehicle.obj
+         obj\x32\Debug\App_AllBullet2Demos\CoordinateFrameDemoPhysicsSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\FiniteElementDemo.obj
+         obj\x32\Debug\App_AllBullet2Demos\BasicDemoPhysicsSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\CcdPhysicsSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\SerializeSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\bChunk.obj
+         obj\x32\Debug\App_AllBullet2Demos\bDNA.obj
+         obj\x32\Debug\App_AllBullet2Demos\bFile.obj
+         obj\x32\Debug\App_AllBullet2Demos\btBulletFile.obj
+         obj\x32\Debug\App_AllBullet2Demos\btBulletWorldImporter.obj
+         obj\x32\Debug\App_AllBullet2Demos\btWorldImporter.obj
+         obj\x32\Debug\App_AllBullet2Demos\ConstraintPhysicsSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\LoadMeshFromCollada.obj
+         obj\x32\Debug\App_AllBullet2Demos\ImportColladaSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\ImportURDFSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\ImportObjSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\App_AllBullet2Demos\ImportSTLSetup.obj
+         obj\x32\Debug\App_AllBullet2Demos\tiny_obj_loader.obj
+         obj\x32\Debug\App_AllBullet2Demos\pose.obj
+         obj\x32\Debug\App_AllBullet2Demos\model.obj
+         obj\x32\Debug\App_AllBullet2Demos\link.obj
+         obj\x32\Debug\App_AllBullet2Demos\joint.obj
+         obj\x32\Debug\App_AllBullet2Demos\tinystr.obj
+         obj\x32\Debug\App_AllBullet2Demos\tinyxml.obj
+         obj\x32\Debug\App_AllBullet2Demos\tinyxmlerror.obj
+         obj\x32\Debug\App_AllBullet2Demos\tinyxmlparser.obj
+         obj\x32\Debug\App_AllBullet2Demos\printf_console.obj
+         obj\x32\Debug\App_AllBullet2Demos\string_split.obj
+         obj\x32\Debug\App_AllBullet2Demos\BulletMultiBodyDemos.obj
+         obj\x32\Debug\App_AllBullet2Demos\MultiDofDemo.obj
+         obj\x32\Debug\App_AllBullet2Demos\BasicDemo.obj
+         App_AllBullet2Demos.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\App_AllBullet2Demos_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_AllBullet2Demos.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.29

@@ -1,0 +1,17 @@
+﻿Build started 1/25/2015 1:46:04 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_LuaStandalone.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\btgui\lua-5.2.3\src" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_LuaStandalone\\" /Fd"..\..\bin\App_LuaStandalone_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP "..\..\btgui\lua-5.2.3\lua_standalone\lua.c"
+         lua.c
+     1>..\..\btgui\lua-5.2.3\lua_standalone\lua.c(425): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>..\..\btgui\lua-5.2.3\lua_standalone\lua.c(428): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_LuaStandalone_vs2010_debug.exe" /INCREMENTAL /NOLOGO "..\..\lib\lua-5.2.3_vs2010_debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\App_LuaStandalone_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_LuaStandalone_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_LuaStandalone\lua.obj
+         App_LuaStandalone.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\App_LuaStandalone_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_LuaStandalone.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06

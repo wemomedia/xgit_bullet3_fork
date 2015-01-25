@@ -1,0 +1,34 @@
+﻿Build started 1/25/2015 1:48:23 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_Primitives_clew.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\OpenCL\ParallelPrimitives /I..\..\src /nologo /W3 /WX- /Ox /Oy- /D B3_USE_CLEW /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\Test_OpenCL_Primitives_clew\\" /Fd"obj\x32\Release\Test_OpenCL_Primitives_clew\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\src\clew\clew.c
+         clew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\OpenCL\ParallelPrimitives /I..\..\src /nologo /W3 /WX- /Ox /Oy- /D B3_USE_CLEW /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\Test_OpenCL_Primitives_clew\\" /Fd"obj\x32\Release\Test_OpenCL_Primitives_clew\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\test\OpenCL\ParallelPrimitives\main.cpp ..\..\src\Bullet3OpenCL\Initialize\b3OpenCLUtils.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3FillCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3BoundSearchCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3PrefixScanCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3RadixSort32CL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3LauncherCL.cpp ..\..\src\Bullet3Common\b3AlignedAllocator.cpp ..\..\src\Bullet3Common\b3Logging.cpp
+         main.cpp
+         b3OpenCLUtils.cpp
+         b3FillCL.cpp
+         b3BoundSearchCL.cpp
+         b3PrefixScanCL.cpp
+         b3RadixSort32CL.cpp
+     1>..\..\src\Bullet3Common/b3CommandLineArgs.h(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\test\OpenCL\ParallelPrimitives\main.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         b3LauncherCL.cpp
+         b3AlignedAllocator.cpp
+         b3Logging.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_OpenCL_Primitives_clew_vs2010.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\Test_OpenCL_Primitives_clew_vs2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_OpenCL_Primitives_clew_vs2010.lib" /MACHINE:X86 /SAFESEH obj\x32\Release\Test_OpenCL_Primitives_clew\clew.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\main.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3OpenCLUtils.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3FillCL.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3BoundSearchCL.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3PrefixScanCL.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3RadixSort32CL.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3LauncherCL.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3AlignedAllocator.obj
+         obj\x32\Release\Test_OpenCL_Primitives_clew\b3Logging.obj
+         Test_OpenCL_Primitives_clew.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Test_OpenCL_Primitives_clew_vs2010.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_Primitives_clew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.18

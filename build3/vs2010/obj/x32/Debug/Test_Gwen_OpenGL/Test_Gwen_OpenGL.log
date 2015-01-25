@@ -1,0 +1,99 @@
+﻿Build started 1/25/2015 1:46:16 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_Gwen_OpenGL.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui /I..\..\btgui\GwenOpenGLTest /I..\..\btgui\OpenGLWindow\GlewWindows /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GWEN_COMPILE_STATIC /D _HAS_EXCEPTIONS=0 /D _STATIC_CPPLIB /D DONT_USE_GLUT /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_Gwen_OpenGL\\" /Fd"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\btgui /I..\..\btgui\GwenOpenGLTest /I..\..\btgui\OpenGLWindow\GlewWindows /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GWEN_COMPILE_STATIC /D _HAS_EXCEPTIONS=0 /D _STATIC_CPPLIB /D DONT_USE_GLUT /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_Gwen_OpenGL\\" /Fd"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\OpenSans.cpp ..\..\btgui\OpenGLWindow\TwFonts.cpp ..\..\btgui\OpenGLWindow\LoadShader.cpp ..\..\btgui\OpenGLWindow\GLPrimitiveRenderer.cpp ..\..\btgui\OpenGLWindow\fontstash.cpp ..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp ..\..\btgui\Bullet3AppSupport\b3Clock.cpp ..\..\btgui\GwenOpenGLTest\Button.cpp ..\..\btgui\GwenOpenGLTest\Checkbox.cpp ..\..\btgui\GwenOpenGLTest\ComboBox.cpp ..\..\btgui\GwenOpenGLTest\CrossSplitter.cpp ..\..\btgui\GwenOpenGLTest\GroupBox.cpp ..\..\btgui\GwenOpenGLTest\ImagePanel.cpp ..\..\btgui\GwenOpenGLTest\Label.cpp ..\..\btgui\GwenOpenGLTest\ListBox.cpp ..\..\btgui\GwenOpenGLTest\MenuStrip.cpp ..\..\btgui\GwenOpenGLTest\Numeric.cpp ..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp ..\..\btgui\GwenOpenGLTest\PanelListPanel.cpp ..\..\btgui\GwenOpenGLTest\ProgressBar.cpp ..\..\btgui\GwenOpenGLTest\Properties.cpp ..\..\btgui\GwenOpenGLTest\RadioButton.cpp ..\..\btgui\GwenOpenGLTest\ScrollControl.cpp ..\..\btgui\GwenOpenGLTest\Slider.cpp ..\..\btgui\GwenOpenGLTest\StatusBar.cpp ..\..\btgui\GwenOpenGLTest\TabControl.cpp ..\..\btgui\GwenOpenGLTest\TextBox.cpp ..\..\btgui\GwenOpenGLTest\TreeControl.cpp ..\..\btgui\GwenOpenGLTest\UnitTest.cpp ..\..\btgui\OpenGLWindow\Win32OpenGLWindow.cpp ..\..\btgui\OpenGLWindow\Win32Window.cpp
+         OpenSans.cpp
+         TwFonts.cpp
+         LoadShader.cpp
+         GLPrimitiveRenderer.cpp
+         fontstash.cpp
+         opengl_fontstashcallbacks.cpp
+         b3Clock.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\openglwindow\stb_image_write.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\openglwindow\stb_image_write.h(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Button.cpp
+         Checkbox.cpp
+     1>..\..\btgui\OpenGLWindow\fontstash.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         ComboBox.cpp
+         CrossSplitter.cpp
+         GroupBox.cpp
+         ImagePanel.cpp
+         Label.cpp
+         ListBox.cpp
+         MenuStrip.cpp
+         Numeric.cpp
+         OpenGLSample.cpp
+         PanelListPanel.cpp
+     1>..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp(61): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp(322): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp(322): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\GwenOpenGLTest\OpenGLSample.cpp(333): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         ProgressBar.cpp
+         Properties.cpp
+         RadioButton.cpp
+         ScrollControl.cpp
+         Slider.cpp
+         StatusBar.cpp
+         TabControl.cpp
+         TextBox.cpp
+         TreeControl.cpp
+         UnitTest.cpp
+         Win32OpenGLWindow.cpp
+         Win32Window.cpp
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(192): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(206): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(222): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(239): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(277): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(288): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(299): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(331): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(698): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib ..\..\bin\gwen_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_Gwen_OpenGL\glew.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\OpenSans.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TwFonts.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\LoadShader.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\GLPrimitiveRenderer.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\fontstash.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\opengl_fontstashcallbacks.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\b3Clock.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Button.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Checkbox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ComboBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\CrossSplitter.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\GroupBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ImagePanel.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Label.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ListBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\MenuStrip.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Numeric.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\OpenGLSample.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\PanelListPanel.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ProgressBar.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Properties.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\RadioButton.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ScrollControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Slider.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\StatusBar.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TabControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TextBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TreeControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\UnitTest.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Win32OpenGLWindow.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Win32Window.obj
+         Test_Gwen_OpenGL.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Test_Gwen_OpenGL_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_Gwen_OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.47

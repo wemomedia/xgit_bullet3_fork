@@ -1,0 +1,17 @@
+﻿Build started 1/25/2015 1:47:30 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Bullet3Common.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src /nologo /W3 /WX- /Ox /Oy- /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\Bullet3Common\\" /Fd"obj\x32\Release\Bullet3Common\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\src\Bullet3Common\b3AlignedAllocator.cpp ..\..\src\Bullet3Common\b3Logging.cpp ..\..\src\Bullet3Common\b3Vector3.cpp
+         b3AlignedAllocator.cpp
+         b3Logging.cpp
+         b3Vector3.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\bin\Bullet3Common_vs2010.lib" /NOLOGO /MACHINE:X86 obj\x32\Release\Bullet3Common\b3AlignedAllocator.obj
+         obj\x32\Release\Bullet3Common\b3Logging.obj
+         obj\x32\Release\Bullet3Common\b3Vector3.obj
+         Bullet3Common.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Bullet3Common_vs2010.lib
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Bullet3Common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.39

@@ -1,0 +1,129 @@
+﻿Build started 1/25/2015 1:45:21 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\lua-5.2.3.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\btgui\lua-5.2.3\src" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D LUA_COMPAT_ALL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\lua-5.2.3\\" /Fd"..\..\lib\lua-5.2.3_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP "..\..\btgui\lua-5.2.3\src\lapi.c" "..\..\btgui\lua-5.2.3\src\lauxlib.c" "..\..\btgui\lua-5.2.3\src\lbaselib.c" "..\..\btgui\lua-5.2.3\src\lbitlib.c" "..\..\btgui\lua-5.2.3\src\lcode.c" "..\..\btgui\lua-5.2.3\src\lcorolib.c" "..\..\btgui\lua-5.2.3\src\lctype.c" "..\..\btgui\lua-5.2.3\src\ldblib.c" "..\..\btgui\lua-5.2.3\src\ldebug.c" "..\..\btgui\lua-5.2.3\src\ldo.c" "..\..\btgui\lua-5.2.3\src\ldump.c" "..\..\btgui\lua-5.2.3\src\lfunc.c" "..\..\btgui\lua-5.2.3\src\lgc.c" "..\..\btgui\lua-5.2.3\src\linit.c" "..\..\btgui\lua-5.2.3\src\liolib.c" "..\..\btgui\lua-5.2.3\src\llex.c" "..\..\btgui\lua-5.2.3\src\lmathlib.c" "..\..\btgui\lua-5.2.3\src\lmem.c" "..\..\btgui\lua-5.2.3\src\loadlib.c" "..\..\btgui\lua-5.2.3\src\lobject.c" "..\..\btgui\lua-5.2.3\src\lopcodes.c" "..\..\btgui\lua-5.2.3\src\loslib.c" "..\..\btgui\lua-5.2.3\src\lparser.c" "..\..\btgui\lua-5.2.3\src\lstate.c" "..\..\btgui\lua-5.2.3\src\lstring.c" "..\..\btgui\lua-5.2.3\src\lstrlib.c" "..\..\btgui\lua-5.2.3\src\ltable.c" "..\..\btgui\lua-5.2.3\src\ltablib.c" "..\..\btgui\lua-5.2.3\src\ltm.c" "..\..\btgui\lua-5.2.3\src\lundump.c" "..\..\btgui\lua-5.2.3\src\lvm.c" "..\..\btgui\lua-5.2.3\src\lzio.c"
+         lapi.c
+         lauxlib.c
+         lbaselib.c
+         lbitlib.c
+     1>..\..\btgui\lua-5.2.3\src\lauxlib.c(216): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>..\..\btgui\lua-5.2.3\src\lauxlib.c(218): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+         lcode.c
+     1>..\..\btgui\lua-5.2.3\src\lauxlib.c(588): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>..\..\btgui\lua-5.2.3\src\lauxlib.c(642): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\btgui\lua-5.2.3\src\lauxlib.c(648): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(226) : see declaration of 'freopen'
+         lcorolib.c
+         lctype.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+     1>..\..\btgui\lua-5.2.3\src\liolib.c(220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\btgui\lua-5.2.3\src\liolib.c(222): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>..\..\btgui\lua-5.2.3\src\liolib.c(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\btgui\lua-5.2.3\src\liolib.c(258): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(317) : see declaration of 'tmpfile'
+     1>..\..\btgui\lua-5.2.3\src\liolib.c(352): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         lmem.c
+         loadlib.c
+         lobject.c
+         lopcodes.c
+         loslib.c
+     1>..\..\btgui\lua-5.2.3\src\lobject.c(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         lparser.c
+     1>..\..\btgui\lua-5.2.3\src\loslib.c(108): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(323) : see declaration of 'tmpnam'
+     1>..\..\btgui\lua-5.2.3\src\loslib.c(117): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>..\..\btgui\lua-5.2.3\src\loslib.c(200): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>..\..\btgui\lua-5.2.3\src\loslib.c(204): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>..\..\btgui\lua-5.2.3\src\loadlib.c(332): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         lstate.c
+     1>..\..\btgui\lua-5.2.3\src\loadlib.c(640): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>..\..\btgui\lua-5.2.3\src\loadlib.c(642): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+         lstring.c
+         lstrlib.c
+         ltable.c
+         ltablib.c
+         ltm.c
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(845): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(886): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(914): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(924): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(943): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\btgui\lua-5.2.3\src\lstrlib.c(960): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         lundump.c
+         lvm.c
+         lzio.c
+     1>..\..\btgui\lua-5.2.3\src\lvm.c(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\lua-5.2.3_vs2010_debug.lib" /NOLOGO /MACHINE:X86 "obj\x32\Debug\lua-5.2.3\lapi.obj"
+         "obj\x32\Debug\lua-5.2.3\lauxlib.obj"
+         "obj\x32\Debug\lua-5.2.3\lbaselib.obj"
+         "obj\x32\Debug\lua-5.2.3\lbitlib.obj"
+         "obj\x32\Debug\lua-5.2.3\lcode.obj"
+         "obj\x32\Debug\lua-5.2.3\lcorolib.obj"
+         "obj\x32\Debug\lua-5.2.3\lctype.obj"
+         "obj\x32\Debug\lua-5.2.3\ldblib.obj"
+         "obj\x32\Debug\lua-5.2.3\ldebug.obj"
+         "obj\x32\Debug\lua-5.2.3\ldo.obj"
+         "obj\x32\Debug\lua-5.2.3\ldump.obj"
+         "obj\x32\Debug\lua-5.2.3\lfunc.obj"
+         "obj\x32\Debug\lua-5.2.3\lgc.obj"
+         "obj\x32\Debug\lua-5.2.3\linit.obj"
+         "obj\x32\Debug\lua-5.2.3\liolib.obj"
+         "obj\x32\Debug\lua-5.2.3\llex.obj"
+         "obj\x32\Debug\lua-5.2.3\lmathlib.obj"
+         "obj\x32\Debug\lua-5.2.3\lmem.obj"
+         "obj\x32\Debug\lua-5.2.3\loadlib.obj"
+         "obj\x32\Debug\lua-5.2.3\lobject.obj"
+         "obj\x32\Debug\lua-5.2.3\lopcodes.obj"
+         "obj\x32\Debug\lua-5.2.3\loslib.obj"
+         "obj\x32\Debug\lua-5.2.3\lparser.obj"
+         "obj\x32\Debug\lua-5.2.3\lstate.obj"
+         "obj\x32\Debug\lua-5.2.3\lstring.obj"
+         "obj\x32\Debug\lua-5.2.3\lstrlib.obj"
+         "obj\x32\Debug\lua-5.2.3\ltable.obj"
+         "obj\x32\Debug\lua-5.2.3\ltablib.obj"
+         "obj\x32\Debug\lua-5.2.3\ltm.obj"
+         "obj\x32\Debug\lua-5.2.3\lundump.obj"
+         "obj\x32\Debug\lua-5.2.3\lvm.obj"
+         "obj\x32\Debug\lua-5.2.3\lzio.obj"
+         lua-5.2.3.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\lib\lua-5.2.3_vs2010_debug.lib
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\lua-5.2.3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.12

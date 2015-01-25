@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="btgui">
+      <UniqueIdentifier>{8D85BBF5-1213-FB45-8E19-69EA4F8C0CB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btgui\OpenGLWindow">
+      <UniqueIdentifier>{D8846937-7792-804C-9FCB-71D5E4DE1DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btgui\OpenGLWindow\GlewWindows">
+      <UniqueIdentifier>{08A41789-8DBD-3C48-A5F0-2144B434516F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btgui\Bullet3AppSupport">
+      <UniqueIdentifier>{EA6B0FD9-B88D-DB47-BC6C-238FED3F4456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\b3Clock.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\b3Quickprof.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\BulletDemoInterface.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\CommonMultiBodySetup.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\CommonParameterInterface.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\CommonPhysicsSetup.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\CommonRigidBodySetup.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\GraphingTexture.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\gwenInternalData.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\GwenParameterInterface.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\GwenProfileWindow.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\GwenTextureWindow.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\gwenUserInterface.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\btgui\Bullet3AppSupport\MyDebugDrawer.h">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\btgui\OpenGLWindow\GlewWindows\glew.c">
+      <Filter>btgui\OpenGLWindow\GlewWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\b3Clock.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\b3Quickprof.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\Bullet2RigidBodyDemo.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\GraphingTexture.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\GwenParameterInterface.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\GwenProfileWindow.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\GwenTextureWindow.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\btgui\Bullet3AppSupport\gwenUserInterface.cpp">
+      <Filter>btgui\Bullet3AppSupport</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

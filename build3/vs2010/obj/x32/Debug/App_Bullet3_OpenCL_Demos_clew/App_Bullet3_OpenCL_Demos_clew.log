@@ -1,0 +1,195 @@
+﻿Build started 1/25/2015 1:46:16 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_Bullet3_OpenCL_Demos_clew.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\Demos3 /I..\..\src /I..\..\btgui /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\\" /Fd"..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\src\clew\clew.c ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         clew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\btgui\OpenGLWindow\GlewWindows /I..\..\Demos3 /I..\..\src /I..\..\btgui /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\\" /Fd"..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\Demos3\GpuDemos\GpuDemo.cpp ..\..\Demos3\GpuDemos\main_opengl3core.cpp ..\..\Demos3\GpuDemos\ParticleDemo.cpp ..\..\Demos3\GpuDemos\broadphase\PairBench.cpp ..\..\Demos3\GpuDemos\constraints\ConstraintsDemo.cpp ..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp ..\..\Demos3\GpuDemos\rigidbody\Bullet2FileDemo.cpp ..\..\Demos3\GpuDemos\rigidbody\BulletDataExtractor.cpp ..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp ..\..\Demos3\GpuDemos\rigidbody\GpuCompoundScene.cpp ..\..\Demos3\GpuDemos\rigidbody\GpuConvexScene.cpp ..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp ..\..\Demos3\GpuDemos\rigidbody\GpuSphereScene.cpp ..\..\Demos3\GpuDemos\shadows\ShadowMapDemo.cpp ..\..\Demos3\GpuDemos\softbody\GpuSoftBodyDemo.cpp ..\..\Demos3\Wavefront\tiny_obj_loader.cpp ..\..\btgui\OpenGLWindow\GLInstancingRenderer.cpp ..\..\btgui\OpenGLWindow\GLPrimitiveRenderer.cpp ..\..\btgui\OpenGLWindow\LoadShader.cpp ..\..\btgui\OpenGLWindow\TwFonts.cpp ..\..\btgui\OpenGLWindow\GLRenderToTexture.cpp ..\..\btgui\OpenGLWindow\fontstash.cpp ..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp ..\..\btgui\OpenGLWindow\OpenSans.cpp ..\..\btgui\stb_image\stb_image.cpp ..\..\btgui\OpenGLWindow\Win32OpenGLWindow.cpp ..\..\btgui\OpenGLWindow\Win32Window.cpp
+         GpuDemo.cpp
+         main_opengl3core.cpp
+         ParticleDemo.cpp
+         PairBench.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\ParticleDemo.h(5): warning C4099: 'GLInstancingRenderer' : type name first seen using 'class' now seen using 'struct' (..\..\Demos3\GpuDemos\ParticleDemo.cpp)
+                 e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\GpuDemo.h(3) : see declaration of 'GLInstancingRenderer'
+         ConstraintsDemo.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\constraints\../rigidbody/GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\constraints\ConstraintsDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+         RaytracedShadowDemo.cpp
+     1>..\..\Demos3\GpuDemos\constraints\ConstraintsDemo.cpp(56): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\constraints\ConstraintsDemo.cpp(56): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\constraints\ConstraintsDemo.cpp(172): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\raytrace\../rigidbody/GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+         Bullet2FileDemo.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\ParticleDemo.h(5): warning C4099: 'GLInstancingRenderer' : type name first seen using 'class' now seen using 'struct' (..\..\Demos3\GpuDemos\main_opengl3core.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\btgui\OpenGLWindow/GLInstancingRenderer.h(30) : see declaration of 'GLInstancingRenderer'
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(146): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(220): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(221): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(223): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(248): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(249): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(284): warning C4244: 'argument' : conversion from 'int' to 'const b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(285): warning C4244: 'argument' : conversion from 'int' to 'const b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(380): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(381): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(382): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(436): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\raytrace\RaytracedShadowDemo.cpp(234): warning C4101: 'rightOffset' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(98): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(349): warning C4101: 'texture' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(348): warning C4101: 'lh' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(348): warning C4101: 'sy' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(348): warning C4101: 'dy' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(348): warning C4101: 'sx' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(346): warning C4101: 'datasize' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(348): warning C4101: 'dx' : unreferenced local variable
+     1>E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3Common/b3CommandLineArgs.h(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\Demos3\GpuDemos\main_opengl3core.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>..\..\Demos3\GpuDemos\rigidbody\Bullet2FileDemo.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\GpuDemos\rigidbody\Bullet2FileDemo.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(827): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         BulletDataExtractor.cpp
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(912): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(936): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(937): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(942): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(943): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(1064): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\GpuDemos\main_opengl3core.cpp(793): warning C4101: 'lh' : unreferenced local variable
+         ConcaveScene.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+     1>..\..\Demos3\GpuDemos\rigidbody\BulletDataExtractor.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         GpuCompoundScene.cpp
+     1>..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp(346): warning C4244: 'argument' : conversion from 'int' to 'b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp(507): warning C4244: 'argument' : conversion from 'int' to 'const b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\ConcaveScene.cpp(741): warning C4244: 'argument' : conversion from 'int' to 'b3Scalar', possible loss of data
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\rigidbody\GpuCompoundScene.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuCompoundScene.cpp(131): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+         GpuConvexScene.cpp
+         GpuRigidBodyDemo.cpp
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\rigidbody\GpuConvexScene.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+         GpuSphereScene.cpp
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuConvexScene.cpp(184): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+     1>e:\projects\wemo\xgit_bullet3_fork\demos3\gpudemos\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase' : type name first seen using 'struct' now seen using 'class' (..\..\Demos3\GpuDemos\rigidbody\GpuSphereScene.cpp)
+                 E:\Projects\Wemo\xgit_bullet3_fork\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35) : see declaration of 'b3DynamicBvhBroadphase'
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuSphereScene.cpp(176): warning C4244: 'argument' : conversion from 'int' to 'b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuSphereScene.cpp(194): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuSphereScene.cpp(194): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         ShadowMapDemo.cpp
+         GpuSoftBodyDemo.cpp
+         tiny_obj_loader.cpp
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(65): warning C4316: 'GpuRigidBodyDemoInternalData' : object allocated on the heap may not be aligned 16
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(341): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(342): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(324): warning C4101: 'rightOffset' : unreferenced local variable
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(385): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\GpuDemos\rigidbody\GpuRigidBodyDemo.cpp(416): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         GLInstancingRenderer.cpp
+     1>..\..\btgui\OpenGLWindow\GLInstancingRenderer.cpp(387): warning C4316: 'InternalDataRenderer' : object allocated on the heap may not be aligned 16
+     1>..\..\btgui\OpenGLWindow\GLInstancingRenderer.cpp(1279): warning C4309: '=' : truncation of constant value
+     1>..\..\btgui\OpenGLWindow\GLInstancingRenderer.cpp(1345): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\GLInstancingRenderer.cpp(1346): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\softbody\GpuSoftBodyDemo.cpp(189): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\softbody\GpuSoftBodyDemo.cpp(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Demos3\GpuDemos\softbody\GpuSoftBodyDemo.cpp(323): warning C4244: 'argument' : conversion from 'double' to 'b3Scalar', possible loss of data
+     1>..\..\Demos3\GpuDemos\softbody\GpuSoftBodyDemo.cpp(327): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         GLPrimitiveRenderer.cpp
+         LoadShader.cpp
+         TwFonts.cpp
+         GLRenderToTexture.cpp
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(174): warning C4018: '>' : signed/unsigned mismatch
+         fontstash.cpp
+         opengl_fontstashcallbacks.cpp
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(353): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\openglwindow\stb_image_write.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\projects\wemo\xgit_bullet3_fork\btgui\openglwindow\stb_image_write.h(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\btgui\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(589): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(605): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+         OpenSans.cpp
+     1>..\..\Demos3\Wavefront\tiny_obj_loader.cpp(661): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\btgui\OpenGLWindow\fontstash.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         stb_image.cpp
+     1>..\..\btgui\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\btgui\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\btgui\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Win32OpenGLWindow.cpp
+     1>..\..\btgui\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Win32Window.cpp
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(192): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(206): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(222): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(239): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(277): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(288): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(299): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(331): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\btgui\OpenGLWindow\Win32Window.cpp(698): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib ..\..\bin\Bullet3AppSupport_vs2010_debug.lib ..\..\bin\gwen_vs2010_debug.lib ..\..\lib\Bullet2FileLoader_vs2010_debug.lib ..\..\lib\Bullet3OpenCL_clew_vs2010_debug.lib ..\..\bin\Bullet3Dynamics_vs2010_debug.lib ..\..\bin\Bullet3Collision_vs2010_debug.lib ..\..\bin\Bullet3Geometry_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\clew.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\glew.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\main_opengl3core.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\ParticleDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\PairBench.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\ConstraintsDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\RaytracedShadowDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\Bullet2FileDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\BulletDataExtractor.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\ConcaveScene.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuCompoundScene.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuConvexScene.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuRigidBodyDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuSphereScene.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\ShadowMapDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GpuSoftBodyDemo.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\tiny_obj_loader.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GLInstancingRenderer.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GLPrimitiveRenderer.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\LoadShader.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\TwFonts.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\GLRenderToTexture.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\fontstash.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\opengl_fontstashcallbacks.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\OpenSans.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\stb_image.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\Win32OpenGLWindow.obj
+         obj\x32\Debug\App_Bullet3_OpenCL_Demos_clew\Win32Window.obj
+         App_Bullet3_OpenCL_Demos_clew.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\App_Bullet3_OpenCL_Demos_clew_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_Bullet3_OpenCL_Demos_clew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.40

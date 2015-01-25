@@ -1,0 +1,15 @@
+﻿Build started 1/25/2015 1:48:21 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_Lua.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\btgui\lua-5.2.3\src" /nologo /W3 /WX- /Ox /Oy- /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\Test_Lua\\" /Fd"obj\x32\Release\Test_Lua\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\test\lua\main.cpp
+         main.cpp
+     1>..\..\test\lua\main.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\test\lua\main.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_Lua_vs2010.exe" /INCREMENTAL:NO /NOLOGO "..\..\lib\lua-5.2.3_vs2010.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\Test_Lua_vs2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_Lua_vs2010.lib" /MACHINE:X86 /SAFESEH obj\x32\Release\Test_Lua\main.obj
+         Test_Lua.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Test_Lua_vs2010.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_Lua.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21

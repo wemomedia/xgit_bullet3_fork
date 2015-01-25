@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="btgui">
+      <UniqueIdentifier>{A1CAC488-7CCD-4343-9F9B-9D3F0559E6B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btgui\OpenGLWindow">
+      <UniqueIdentifier>{7B748066-5695-4344-B632-3CB613BD81F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btgui\OpenGLWindow\GlewWindows">
+      <UniqueIdentifier>{B3A674C6-5368-D84B-BCD0-5AEF4E79E083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos3">
+      <UniqueIdentifier>{FB870E63-01CD-3C48-AAB3-3FD5184A97D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos3\BasicDemoCustomOpenGL2">
+      <UniqueIdentifier>{68F6A327-6B83-5043-A1A2-945A9B2C6CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{D2356F35-F0D3-9F41-8305-5C790EAED50E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\BasicDemo">
+      <UniqueIdentifier>{19E2E5A9-50FC-2043-82AB-54396DFA6910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\OpenGL">
+      <UniqueIdentifier>{1FAF29E1-CFB7-6447-93A5-7109205B69F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\BasicDemo\BasicDemoPhysicsSetup.h">
+      <Filter>Demos\BasicDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Demos\OpenGL\DemoApplication.h">
+      <Filter>Demos\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Demos\OpenGL\GL_ShapeDrawer.h">
+      <Filter>Demos\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Demos\OpenGL\GLDebugDrawer.h">
+      <Filter>Demos\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Demos\OpenGL\GLDebugFont.h">
+      <Filter>Demos\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\btgui\OpenGLWindow\GlewWindows\glew.c">
+      <Filter>btgui\OpenGLWindow\GlewWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp">
+      <Filter>Demos3\BasicDemoCustomOpenGL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\BasicDemo\BasicDemoPhysicsSetup.cpp">
+      <Filter>Demos\BasicDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\OpenGL\DemoApplication.cpp">
+      <Filter>Demos\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\OpenGL\GL_ShapeDrawer.cpp">
+      <Filter>Demos\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\OpenGL\GLDebugDrawer.cpp">
+      <Filter>Demos\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\OpenGL\GLDebugFont.cpp">
+      <Filter>Demos\OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

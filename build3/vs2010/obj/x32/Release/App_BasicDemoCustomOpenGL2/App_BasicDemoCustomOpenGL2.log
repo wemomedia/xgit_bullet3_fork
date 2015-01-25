@@ -1,0 +1,50 @@
+﻿Build started 1/25/2015 1:47:50 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_BasicDemoCustomOpenGL2.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src /I..\..\btgui /I..\..\btgui\OpenGLWindow\GlewWindows /nologo /W3 /WX- /Ox /Oy- /D DONT_USE_GLUT /D USE_OPENGL2 /D GLEW_STATIC /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\App_BasicDemoCustomOpenGL2\\" /Fd"obj\x32\Release\App_BasicDemoCustomOpenGL2\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\btgui\OpenGLWindow\GlewWindows\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src /I..\..\btgui /I..\..\btgui\OpenGLWindow\GlewWindows /nologo /W3 /WX- /Ox /Oy- /D DONT_USE_GLUT /D USE_OPENGL2 /D GLEW_STATIC /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Release\App_BasicDemoCustomOpenGL2\\" /Fd"obj\x32\Release\App_BasicDemoCustomOpenGL2\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp ..\..\Demos\BasicDemo\BasicDemoPhysicsSetup.cpp ..\..\Demos\OpenGL\DemoApplication.cpp ..\..\Demos\OpenGL\GL_ShapeDrawer.cpp ..\..\Demos\OpenGL\GLDebugDrawer.cpp ..\..\Demos\OpenGL\GLDebugFont.cpp
+         main.cpp
+         BasicDemoPhysicsSetup.cpp
+         DemoApplication.cpp
+         GL_ShapeDrawer.cpp
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(452): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(1171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(1174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(1191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(1199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos\OpenGL\DemoApplication.cpp(1206): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(95): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(104): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(110): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(111): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(114): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(140): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(140): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>..\..\Demos3\BasicDemoCustomOpenGL2\main.cpp(238): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GLDebugDrawer.cpp
+     1>..\..\Demos\OpenGL\GL_ShapeDrawer.cpp(772): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         GLDebugFont.cpp
+     1>..\..\Demos\OpenGL\GLDebugFont.cpp(208): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_BasicDemoCustomOpenGL2_vs2010.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glu32.lib ..\..\bin\OpenGL_Window_vs2010.lib ..\..\bin\BulletDynamics_vs2010.lib ..\..\bin\BulletCollision_vs2010.lib ..\..\bin\LinearMath_vs2010.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\App_BasicDemoCustomOpenGL2_vs2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_BasicDemoCustomOpenGL2_vs2010.lib" /MACHINE:X86 /SAFESEH obj\x32\Release\App_BasicDemoCustomOpenGL2\glew.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\main.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\BasicDemoPhysicsSetup.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\DemoApplication.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\GL_ShapeDrawer.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\GLDebugDrawer.obj
+         obj\x32\Release\App_BasicDemoCustomOpenGL2\GLDebugFont.obj
+         App_BasicDemoCustomOpenGL2.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\App_BasicDemoCustomOpenGL2_vs2010.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\App_BasicDemoCustomOpenGL2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.61

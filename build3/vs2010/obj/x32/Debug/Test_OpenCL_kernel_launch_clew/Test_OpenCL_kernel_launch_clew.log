@@ -1,0 +1,24 @@
+﻿Build started 1/25/2015 1:46:08 PM.
+     1>Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_kernel_launch_clew.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_OpenCL_kernel_launch_clew\\" /Fd"..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP ..\..\src\clew\clew.c
+         clew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Test_OpenCL_kernel_launch_clew\\" /Fd"..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\test\OpenCL\KernelLaunch\main.cpp ..\..\src\Bullet3OpenCL\Initialize\b3OpenCLUtils.cpp ..\..\src\Bullet3Common\b3AlignedAllocator.cpp ..\..\src\Bullet3Common\b3Logging.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3LauncherCL.cpp
+         main.cpp
+         b3OpenCLUtils.cpp
+         b3AlignedAllocator.cpp
+         b3Logging.cpp
+         b3LauncherCL.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_OpenCL_kernel_launch_clew\clew.obj
+         obj\x32\Debug\Test_OpenCL_kernel_launch_clew\main.obj
+         obj\x32\Debug\Test_OpenCL_kernel_launch_clew\b3OpenCLUtils.obj
+         obj\x32\Debug\Test_OpenCL_kernel_launch_clew\b3AlignedAllocator.obj
+         obj\x32\Debug\Test_OpenCL_kernel_launch_clew\b3Logging.obj
+         obj\x32\Debug\Test_OpenCL_kernel_launch_clew\b3LauncherCL.obj
+         Test_OpenCL_kernel_launch_clew.vcxproj -> E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\..\..\bin\Test_OpenCL_kernel_launch_clew_vs2010_debug.exe
+     1>Done Building Project "E:\Projects\Wemo\xgit_bullet3_fork\build3\vs2010\Test_OpenCL_kernel_launch_clew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91
